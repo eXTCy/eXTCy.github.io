@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1> XTC Ladder </h1>
+<h2> by xtc!!! </h2>
+
+<br>
+
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, &#39;Ladder&#39;)" id="defaultOpen">Ladder</button>
+  <button class="tablinks" onclick="openTab(event, &#39;Teams&#39;)">Teams</button>
+  <button class="tablinks" onclick="openTab(event, &#39;Players&#39;)">Players</button>
+  <button class="tablinks" onclick="openTab(event, &#39;About&#39;)">About</button>
+
+</div>
+
+<!-- Tab content -->
+<div id="About" class="tabcontent" style="display: none;">
+  <h3>About</h3>
+  <p>This is a website dedicated to keeping a ladder for the game Midair created by eXTCy because he was bored.</p>
+</div>
+
+<div id="Ladder" class="tabcontent" style="display: block;">
+  <h3>Ladder</h3>
+  <table id="myTable">
+  <tbody><tr>
+    <th onclick="sortRanks()">Rank</th>
+    <th onclick="sortTeams()">Team Name</th>
+    <th onclick="sortWins()">Wins</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td>Example Team 1</td>
+    <td>100000</td>
+  </tr>
+  <tr>
+    <td>2.</td>
+    <td>Example Team 2</td>
+    <td>5000</td>
+  </tr>
+  <tr>
+    <td>3.</td>
+    <td>Example Team 3</td>
+    <td>3000</td>
+  </tr>
+  <tr>
+    <td>4.</td>
+    <td>Example Team 4</td>
+    <td>2000</td>
+  </tr>
+  <tr>
+    <td>5.</td>
+    <td>Example Team 5</td>
+    <td>1000</td>
+  </tr>
+  <tr>
+    <td>6.</td>
+    <td>Example Team 6</td>
+    <td>500</td>
+  </tr>
+  <tr>
+    <td>7.</td>
+    <td>Example Team 7</td>
+    <td>250</td>
+  </tr>
+  <tr>
+    <td>8.</td>
+    <td>Example Team 8</td>
+    <td>1</td>
+  </tr>
+</tbody></table>
+
+<script>
+</script>
+
+</div>
+
+<div id="Teams" class="tabcontent" style="display: none;">
+  <h3>Teams</h3>
+  <p>insert teams.</p>
+</div>
+
+<div id="Players" class="tabcontent" style="display: none;">
+  <h3>Players</h3>
+  <p>insert players.</p>
+</div>
+
+
+<script src="script.js"></script>
+
+</body></html>
